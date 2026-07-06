@@ -1,0 +1,202 @@
+[
+  {
+    "id": "pose-001",
+    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Mujer+Playa",
+    "titulo": "Mirada al horizonte",
+    "categoria": "mujer",
+    "ocasion": "playa",
+    "dificultad": "facil",
+    "tips": "Peso del cuerpo en la pierna trasera, hombros relajados, barbilla ligeramente hacia abajo.",
+    "etiquetas": ["de pie", "cuerpo completo", "natural"]
+  },
+  {
+    "id": "pose-002",
+    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Hombre+Casual",
+    "titulo": "Pose casual relajada",
+    "categoria": "hombre",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "Manos en bolsillos, sonrisa natural, mirada hacia la cámara o ligeramente alejada.",
+    "etiquetas": ["de pie", "cuerpo completo", "relajado"]
+  },
+  {
+    "id": "pose-003",
+    "archivo": "https://placehold.co/800x600/1a1a1e/f5a623?text=Pareja+Playa",
+    "titulo": "Pareja frente al mar",
+    "categoria": "pareja",
+    "ocasion": "playa",
+    "dificultad": "media",
+    "tips": "Cuerpos ligeramente girados, mano en cintura, miradas hacia el horizonte o entre ellos.",
+    "etiquetas": ["de pie", "cuerpo completo", "romance"]
+  },
+  {
+    "id": "pose-004",
+    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Mujer+Sentada",
+    "titulo": "Sentada contemplativa",
+    "categoria": "mujer",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "Espalda recta, piernas cruzadas o extendidas, manos relajadas en el regazo.",
+    "etiquetas": ["sentada", "media figura", "pensativa"]
+  },
+  {
+    "id": "pose-005",
+    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Graduacion",
+    "titulo": "Pose formal de graduación",
+    "categoria": "mujer",
+    "ocasion": "graduacion",
+    "dificultad": "media",
+    "tips": "Hombros hacia atrás, una mano en cadera, sonrisa segura, postura erguida.",
+    "etiquetas": ["de pie", "cuerpo completo", "formal"]
+  },
+  {
+    "id": "pose-006",
+    "archivo": "https://placehold.co/800x600/1a1a1e/f5a623?text=Niño+Jugando",
+    "titulo": "Niño en movimiento",
+    "categoria": "niño",
+    "ocasion": "casual",
+    "dificultad": "media",
+    "tips": "Capturar movimiento natural, saltando o corriendo, expresión alegre y espontánea.",
+    "etiquetas": ["dinamico", "cuerpo completo", "natural"]
+  },
+  {
+    "id": "pose-007",
+    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Embarazo",
+    "titulo": "Maternidad - mano en vientre",
+    "categoria": "mujer",
+    "ocasion": "embarazo",
+    "dificultad": "facil",
+    "tips": "De lado, mano sobre el vientre, otra mano en la nuca o cadera, mirada suave hacia la cámara.",
+    "etiquetas": ["de pie", "perfil", "maternidad"]
+  },
+  {
+    "id": "pose-008",
+    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Boda+Formal",
+    "titulo": "Novio en traje formal",
+    "categoria": "hombre",
+    "ocasion": "boda",
+    "dificultad": "facil",
+    "tips": "Manos en bolsillos o ajustando corbata, postura firme, mirada confiada.",
+    "etiquetas": ["de pie", "cuerpo completo", "formal"]
+  },
+  {
+    "id": "pose-009",
+    "archivo": "https://placehold.co/800x600/1a1a1e/f5a623?text=Grupo+Familia",
+    "titulo": "Familia posando juntos",
+    "categoria": "familia",
+    "ocasion": "casual",
+    "dificultad": "avanzada",
+    "tips": "Todos mirando a la cámara o ligeramente al mismo lado, espaciamiento equilibrado, relajación natural.",
+    "etiquetas": ["grupo", "cuerpo completo", "familiar"]
+  },
+  {
+    "id": "pose-010",
+    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Urbano+Hombre",
+    "titulo": "Pose urbana desenfadada",
+    "categoria": "hombre",
+    "ocasion": "urbana",
+    "dificultad": "media",
+    "tips": "Apoyado contra pared, una mano en bolsillo, cabeza ladeada ligeramente, actitud relajada.",
+    "etiquetas": ["de pie", "cuerpo completo", "moderno"]
+  },
+  {
+    "id": "pose-011",
+    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Deporte",
+    "titulo": "Pose deportiva activa",
+    "categoria": "hombre",
+    "ocasion": "deportiva",
+    "dificultad": "media",
+    "tips": "Cuerpo dinámico, brazos en movimiento, piernas en posición atlética, expresión de energía.",
+    "etiquetas": ["dinamico", "cuerpo completo", "energetico"]
+  },
+  {
+    "id": "pose-012",
+    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Navidad",
+    "titulo": "Celebración navideña",
+    "categoria": "mujer",
+    "ocasion": "navidad",
+    "dificultad": "facil",
+    "tips": "Sostener regalos o adorno, sonrisa genuina, luz cálida, ambiente festivo.",
+    "etiquetas": ["de pie", "cuerpo completo", "festivo"]
+  },
+  {
+    "id": "pose-013",
+    "archivo": "https://placehold.co/800x600/1a1a1e/f5a623?text=Cumpleaños",
+    "titulo": "Cake smash desenfadado",
+    "categoria": "niña",
+    "ocasion": "cumpleaños",
+    "dificultad": "facil",
+    "tips": "Alegría espontánea, mancha de pastel en cara, risas genuinas, acción capturable.",
+    "etiquetas": ["dinamico", "media figura", "feliz"]
+  },
+  {
+    "id": "pose-014",
+    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Mujer+Formal",
+    "titulo": "Ejecutiva profesional",
+    "categoria": "mujer",
+    "ocasion": "formal",
+    "dificultad": "media",
+    "tips": "Postura firme, brazos cruzados o en lateral, blazer bien ajustado, mirada seria o confiada.",
+    "etiquetas": ["de pie", "cuerpo completo", "profesional"]
+  },
+  {
+    "id": "pose-015",
+    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Pareja+Boda",
+    "titulo": "Novios en el altar",
+    "categoria": "pareja",
+    "ocasion": "boda",
+    "dificultad": "avanzada",
+    "tips": "Uno frente al otro o ambos mirando a cámara, manos tomadas o en espalda, intimidad y formalidad.",
+    "etiquetas": ["de pie", "cuerpo completo", "romance"]
+  },
+  {
+    "id": "pose-016",
+    "archivo": "https://placehold.co/800x600/1a1a1e/f5a623?text=Grupo+Amigos",
+    "titulo": "Grupo de amigos riendo",
+    "categoria": "grupo",
+    "ocasion": "casual",
+    "dificultad": "avanzada",
+    "tips": "Brazos alrededor de hombros, expresiones naturales y alegres, variación de alturas.",
+    "etiquetas": ["grupo", "cuerpo completo", "natural"]
+  },
+  {
+    "id": "pose-017",
+    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Niña+Danza",
+    "titulo": "Niña en pose de ballet",
+    "categoria": "niña",
+    "ocasion": "casual",
+    "dificultad": "avanzada",
+    "tips": "Posición en turnout, brazos graciles, puntillas si es posible, expresión elegante.",
+    "etiquetas": ["de pie", "cuerpo completo", "artistico"]
+  },
+  {
+    "id": "pose-018",
+    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Mujer+Playa+2",
+    "titulo": "En el agua relajada",
+    "categoria": "mujer",
+    "ocasion": "playa",
+    "dificultad": "media",
+    "tips": "De pie en el agua, brazos flotando o en cadera, pelo mojado natural, mirada divertida.",
+    "etiquetas": ["de pie", "media figura", "agua"]
+  },
+  {
+    "id": "pose-019",
+    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Urbano+Mujer",
+    "titulo": "Caminando por la calle",
+    "categoria": "mujer",
+    "ocasion": "urbana",
+    "dificultad": "media",
+    "tips": "En movimiento, brazos naturales, gafas de sol opcionales, actitud confiada.",
+    "etiquetas": ["dinamico", "cuerpo completo", "moderno"]
+  },
+  {
+    "id": "pose-020",
+    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Familia+Navidad",
+    "titulo": "Familia en la chimenea",
+    "categoria": "familia",
+    "ocasion": "navidad",
+    "dificultad": "media",
+    "tips": "Sentados o de pie juntos, abrazados suavemente, expresión cálida y feliz.",
+    "etiquetas": ["grupo", "cuerpo completo", "festivo"]
+  }
+]
