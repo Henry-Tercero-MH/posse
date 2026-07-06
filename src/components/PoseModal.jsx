@@ -32,20 +32,20 @@ export const PoseModal = ({
         onClick={onClose}
         aria-label="Cerrar modal"
       />
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-4 pointer-events-none">
+      <div className="fixed inset-0 z-50 flex items-center justify-center p-0 sm:p-4 pointer-events-none">
         <div
-          className="bg-dark-surface border border-dark-border rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto pointer-events-auto shadow-lg-dark"
+          className="bg-dark-surface border border-dark-border rounded-none sm:rounded-2xl w-full h-full sm:max-w-3xl sm:max-h-[90vh] sm:h-auto overflow-y-auto pointer-events-auto shadow-lg-dark flex flex-col"
           onClick={(e) => e.stopPropagation()}
         >
           {/* Header */}
-          <div className="sticky top-0 bg-dark-surface border-b border-dark-border flex items-center justify-between p-6 backdrop-blur-sm bg-opacity-95">
-            <div>
-              <h2 className="text-2xl font-bold text-text-primary">{pose.titulo}</h2>
-              <p className="text-text-tertiary text-sm mt-1">Referencia fotográfica</p>
+          <div className="sticky top-0 bg-dark-surface border-b border-dark-border flex items-center justify-between p-4 sm:p-6 backdrop-blur-sm bg-opacity-95">
+            <div className="flex-1 min-w-0">
+              <h2 className="text-lg sm:text-2xl font-bold text-text-primary truncate">{pose.titulo}</h2>
+              <p className="text-text-tertiary text-xs sm:text-sm mt-1 hidden sm:block">Referencia fotográfica</p>
             </div>
             <button
               onClick={onClose}
-              className="p-2 rounded-lg hover:bg-dark-card transition-colors text-text-secondary hover:text-text-primary"
+              className="p-2 ml-2 rounded-lg hover:bg-dark-card transition-colors text-text-secondary hover:text-text-primary flex-shrink-0"
               aria-label="Cerrar"
             >
               <HiXMark className="w-6 h-6" />
@@ -53,19 +53,13 @@ export const PoseModal = ({
           </div>
 
           {/* Content */}
-          <div className="p-6 space-y-6">
-            {/* Image */}
-            <div className="aspect-[2/3] overflow-hidden rounded-xl bg-dark-bg shadow-md-dark">
+          <div className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-4 sm:space-y-6">
+            {/* Image - Responsive */}
+            <div className="overflow-hidden rounded-none sm:rounded-xl bg-dark-bg shadow-md-dark -mx-4 sm:mx-0 sm:mb-2" style={{ aspectRatio: '2/3', maxHeight: '70vh', height: 'auto' }}>
               <img
                 src={pose.archivo}
                 alt={pose.titulo}
                 className="w-full h-full object-cover"
-                style={{
-                  objectPosition:
-                    pose.enfoque === 'left' ? 'left center' :
-                    pose.enfoque === 'right' ? 'right center' :
-                    'center center'
-                }}
               />
             </div>
 
