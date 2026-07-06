@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { HiXMark, HiUser, HiCalendar, HiStar, HiInformationCircle, HiHeart, HiOutlineHeart, HiChevronLeft, HiChevronRight } from 'react-icons/hi2';
 
 export const PoseModal = ({
   pose,
@@ -47,47 +48,45 @@ export const PoseModal = ({
               className="p-2 rounded-lg hover:bg-dark-card transition-colors text-text-secondary hover:text-text-primary"
               aria-label="Cerrar"
             >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
+              <HiXMark className="w-6 h-6" />
             </button>
           </div>
 
           {/* Content */}
           <div className="p-6 space-y-6">
             {/* Image */}
-            <div className="aspect-[3/4] overflow-hidden rounded-xl bg-dark-bg shadow-md-dark">
+            <div className="aspect-[2/3] overflow-hidden rounded-xl bg-dark-bg shadow-md-dark">
               <img
                 src={pose.archivo}
                 alt={pose.titulo}
                 className="w-full h-full object-cover"
+                style={{
+                  objectPosition:
+                    pose.enfoque === 'left' ? 'left center' :
+                    pose.enfoque === 'right' ? 'right center' :
+                    'center center'
+                }}
               />
             </div>
 
             {/* Info Grid */}
             <div className="grid grid-cols-3 gap-3">
               <div className="bg-dark-card border border-dark-border rounded-lg p-4 text-center">
-                <svg className="w-5 h-5 mx-auto text-accent-primary mb-2" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S15.33 8 14.5 8 13 8.67 13 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S8.33 8 7.5 8 6 8.67 6 9.5 6.67 11 7.5 11z" />
-                </svg>
+                <HiUser className="w-5 h-5 mx-auto text-accent-primary mb-2" />
                 <p className="text-text-tertiary text-xs uppercase font-semibold mb-1">Categoría</p>
                 <p className="text-accent-primary font-semibold">
                   {pose.categoria.charAt(0).toUpperCase() + pose.categoria.slice(1)}
                 </p>
               </div>
               <div className="bg-dark-card border border-dark-border rounded-lg p-4 text-center">
-                <svg className="w-5 h-5 mx-auto text-accent-primary mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h18M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
+                <HiCalendar className="w-5 h-5 mx-auto text-accent-primary mb-2" />
                 <p className="text-text-tertiary text-xs uppercase font-semibold mb-1">Ocasión</p>
                 <p className="text-accent-primary font-semibold">
                   {pose.ocasion.charAt(0).toUpperCase() + pose.ocasion.slice(1)}
                 </p>
               </div>
               <div className="bg-dark-card border border-dark-border rounded-lg p-4 text-center">
-                <svg className="w-5 h-5 mx-auto text-accent-primary mb-2" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm0-13c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5z" />
-                </svg>
+                <HiStar className="w-5 h-5 mx-auto text-accent-primary mb-2" />
                 <p className="text-text-tertiary text-xs uppercase font-semibold mb-1">Dificultad</p>
                 <p className="text-accent-primary font-semibold">
                   {pose.dificultad.charAt(0).toUpperCase() + pose.dificultad.slice(1)}
@@ -98,9 +97,7 @@ export const PoseModal = ({
             {/* Tips */}
             <div className="bg-dark-card border border-dark-border rounded-lg p-4">
               <div className="flex items-center gap-2 mb-2">
-                <svg className="w-5 h-5 text-accent-primary" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" />
-                </svg>
+                <HiInformationCircle className="w-5 h-5 text-accent-primary" />
                 <h3 className="font-semibold text-text-primary">Tips de postura</h3>
               </div>
               <p className="text-text-secondary leading-relaxed text-sm">{pose.tips}</p>
@@ -132,9 +129,11 @@ export const PoseModal = ({
                   : 'bg-dark-card border border-dark-border text-text-primary hover:border-accent-primary hover:text-accent-primary'
               }`}
             >
-              <svg className="w-5 h-5" viewBox="0 0 24 24" fill={isFavorite ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth={isFavorite ? 0 : 2}>
-                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-              </svg>
+              {isFavorite ? (
+                <HiHeart className="w-5 h-5 fill-current" />
+              ) : (
+                <HiOutlineHeart className="w-5 h-5" />
+              )}
               {isFavorite ? 'Remover de favoritos' : 'Agregar a favoritos'}
             </button>
           </div>
@@ -147,9 +146,7 @@ export const PoseModal = ({
               className="flex items-center gap-2 px-4 py-2.5 bg-dark-card hover:bg-dark-border rounded-lg disabled:opacity-30 disabled:cursor-not-allowed transition-colors text-text-primary font-medium"
               aria-label="Pose anterior"
             >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-              </svg>
+              <HiChevronLeft className="w-4 h-4" />
               Anterior
             </button>
             <div className="text-text-tertiary text-sm font-medium">
@@ -162,9 +159,7 @@ export const PoseModal = ({
               aria-label="Próxima pose"
             >
               Siguiente
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
+              <HiChevronRight className="w-4 h-4" />
             </button>
           </div>
         </div>

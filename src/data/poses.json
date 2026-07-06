@@ -1,63 +1,99 @@
 [
   {
     "id": "pose-001",
-    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Mujer+Playa",
-    "titulo": "Mirada al horizonte",
-    "categoria": "mujer",
-    "ocasion": "playa",
+    "archivo": "/poses/01a-retrato-clasico-hombre.png",
+    "titulo": "Retrato clásico - Hombre",
+    "categoria": "hombre",
+    "ocasion": "formal",
     "dificultad": "facil",
-    "tips": "Peso del cuerpo en la pierna trasera, hombros relajados, barbilla ligeramente hacia abajo.",
-    "etiquetas": ["de pie", "cuerpo completo", "natural"]
+    "tips": "Posición frontal con los hombros relajados. Mantén la barbilla paralela al suelo y proyecta confianza con la mirada hacia la cámara.",
+    "etiquetas": [
+      "retrato",
+      "clásico",
+      "formal",
+      "de frente"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-002",
-    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Hombre+Casual",
-    "titulo": "Pose casual relajada",
-    "categoria": "hombre",
-    "ocasion": "casual",
+    "archivo": "/poses/01b-retrato-clasico-mujer.png",
+    "titulo": "Retrato clásico - Mujer",
+    "categoria": "mujer",
+    "ocasion": "formal",
     "dificultad": "facil",
-    "tips": "Manos en bolsillos, sonrisa natural, mirada hacia la cámara o ligeramente alejada.",
-    "etiquetas": ["de pie", "cuerpo completo", "relajado"]
+    "tips": "Gira ligeramente el cuerpo, una mano puede descansar naturalmente. Mantén los hombros relajados y una expresión suave.",
+    "etiquetas": [
+      "retrato",
+      "clásico",
+      "formal",
+      "elegante"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-003",
-    "archivo": "https://placehold.co/800x600/1a1a1e/f5a623?text=Pareja+Playa",
-    "titulo": "Pareja frente al mar",
-    "categoria": "pareja",
-    "ocasion": "playa",
-    "dificultad": "media",
-    "tips": "Cuerpos ligeramente girados, mano en cintura, miradas hacia el horizonte o entre ellos.",
-    "etiquetas": ["de pie", "cuerpo completo", "romance"]
+    "archivo": "/poses/01c-retrato-clasico-joven.png",
+    "titulo": "Retrato clásico - Joven",
+    "categoria": "niño",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "Postura relajada y natural. Deja que la expresión sea genuina y evita rigidez en los hombros.",
+    "etiquetas": [
+      "retrato",
+      "joven",
+      "natural",
+      "casual"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-004",
-    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Mujer+Sentada",
-    "titulo": "Sentada contemplativa",
+    "archivo": "/poses/01d-retrato-clasico-senorita.png",
+    "titulo": "Retrato clásico - Señorita",
     "categoria": "mujer",
-    "ocasion": "casual",
+    "ocasion": "formal",
     "dificultad": "facil",
-    "tips": "Espalda recta, piernas cruzadas o extendidas, manos relajadas en el regazo.",
-    "etiquetas": ["sentada", "media figura", "pensativa"]
+    "tips": "Inclina ligeramente la cabeza hacia el hombro. Gira el cuerpo unos 45 grados para un aspecto más dinámico.",
+    "etiquetas": [
+      "retrato",
+      "clásico",
+      "formal",
+      "elegante"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-005",
-    "archivo": "https://placehold.co/600x800/1a1a1e/f5a623?text=Graduacion",
-    "titulo": "Pose formal de graduación",
-    "categoria": "mujer",
-    "ocasion": "graduacion",
-    "dificultad": "media",
-    "tips": "Hombros hacia atrás, una mano en cadera, sonrisa segura, postura erguida.",
-    "etiquetas": ["de pie", "cuerpo completo", "formal"]
+    "archivo": "/poses/01e-retrato-clasico-nino.png",
+    "titulo": "Retrato clásico - Niño",
+    "categoria": "niño",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "Mantén una postura relajada y natural. Permite que sonría naturalmente sin forzar la expresión.",
+    "etiquetas": [
+      "retrato",
+      "niño",
+      "natural",
+      "joven"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-006",
-    "archivo": "https://placehold.co/800x600/1a1a1e/f5a623?text=Niño+Jugando",
-    "titulo": "Niño en movimiento",
-    "categoria": "niño",
+    "archivo": "/poses/01f-retrato-clasico-nina.png",
+    "titulo": "Retrato clásico - Niña",
+    "categoria": "niña",
     "ocasion": "casual",
-    "dificultad": "media",
-    "tips": "Capturar movimiento natural, saltando o corriendo, expresión alegre y espontánea.",
-    "etiquetas": ["dinamico", "cuerpo completo", "natural"]
+    "dificultad": "facil",
+    "tips": "Posición frontal o ligeramente girada. Permite que la expresión sea natural y auténtica.",
+    "etiquetas": [
+      "retrato",
+      "niña",
+      "natural",
+      "joven"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-007",
@@ -67,7 +103,12 @@
     "ocasion": "embarazo",
     "dificultad": "facil",
     "tips": "De lado, mano sobre el vientre, otra mano en la nuca o cadera, mirada suave hacia la cámara.",
-    "etiquetas": ["de pie", "perfil", "maternidad"]
+    "etiquetas": [
+      "de pie",
+      "perfil",
+      "maternidad"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-008",
@@ -77,7 +118,12 @@
     "ocasion": "boda",
     "dificultad": "facil",
     "tips": "Manos en bolsillos o ajustando corbata, postura firme, mirada confiada.",
-    "etiquetas": ["de pie", "cuerpo completo", "formal"]
+    "etiquetas": [
+      "de pie",
+      "cuerpo completo",
+      "formal"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-009",
@@ -87,7 +133,12 @@
     "ocasion": "casual",
     "dificultad": "avanzada",
     "tips": "Todos mirando a la cámara o ligeramente al mismo lado, espaciamiento equilibrado, relajación natural.",
-    "etiquetas": ["grupo", "cuerpo completo", "familiar"]
+    "etiquetas": [
+      "grupo",
+      "cuerpo completo",
+      "familiar"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-010",
@@ -97,7 +148,12 @@
     "ocasion": "urbana",
     "dificultad": "media",
     "tips": "Apoyado contra pared, una mano en bolsillo, cabeza ladeada ligeramente, actitud relajada.",
-    "etiquetas": ["de pie", "cuerpo completo", "moderno"]
+    "etiquetas": [
+      "de pie",
+      "cuerpo completo",
+      "moderno"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-011",
@@ -107,7 +163,12 @@
     "ocasion": "deportiva",
     "dificultad": "media",
     "tips": "Cuerpo dinámico, brazos en movimiento, piernas en posición atlética, expresión de energía.",
-    "etiquetas": ["dinamico", "cuerpo completo", "energetico"]
+    "etiquetas": [
+      "dinamico",
+      "cuerpo completo",
+      "energetico"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-012",
@@ -117,7 +178,12 @@
     "ocasion": "navidad",
     "dificultad": "facil",
     "tips": "Sostener regalos o adorno, sonrisa genuina, luz cálida, ambiente festivo.",
-    "etiquetas": ["de pie", "cuerpo completo", "festivo"]
+    "etiquetas": [
+      "de pie",
+      "cuerpo completo",
+      "festivo"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-013",
@@ -127,7 +193,12 @@
     "ocasion": "cumpleaños",
     "dificultad": "facil",
     "tips": "Alegría espontánea, mancha de pastel en cara, risas genuinas, acción capturable.",
-    "etiquetas": ["dinamico", "media figura", "feliz"]
+    "etiquetas": [
+      "dinamico",
+      "media figura",
+      "feliz"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-014",
@@ -137,7 +208,12 @@
     "ocasion": "formal",
     "dificultad": "media",
     "tips": "Postura firme, brazos cruzados o en lateral, blazer bien ajustado, mirada seria o confiada.",
-    "etiquetas": ["de pie", "cuerpo completo", "profesional"]
+    "etiquetas": [
+      "de pie",
+      "cuerpo completo",
+      "profesional"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-015",
@@ -147,7 +223,12 @@
     "ocasion": "boda",
     "dificultad": "avanzada",
     "tips": "Uno frente al otro o ambos mirando a cámara, manos tomadas o en espalda, intimidad y formalidad.",
-    "etiquetas": ["de pie", "cuerpo completo", "romance"]
+    "etiquetas": [
+      "de pie",
+      "cuerpo completo",
+      "romance"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-016",
@@ -157,7 +238,12 @@
     "ocasion": "casual",
     "dificultad": "avanzada",
     "tips": "Brazos alrededor de hombros, expresiones naturales y alegres, variación de alturas.",
-    "etiquetas": ["grupo", "cuerpo completo", "natural"]
+    "etiquetas": [
+      "grupo",
+      "cuerpo completo",
+      "natural"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-017",
@@ -167,7 +253,12 @@
     "ocasion": "casual",
     "dificultad": "avanzada",
     "tips": "Posición en turnout, brazos graciles, puntillas si es posible, expresión elegante.",
-    "etiquetas": ["de pie", "cuerpo completo", "artistico"]
+    "etiquetas": [
+      "de pie",
+      "cuerpo completo",
+      "artistico"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-018",
@@ -177,7 +268,12 @@
     "ocasion": "playa",
     "dificultad": "media",
     "tips": "De pie en el agua, brazos flotando o en cadera, pelo mojado natural, mirada divertida.",
-    "etiquetas": ["de pie", "media figura", "agua"]
+    "etiquetas": [
+      "de pie",
+      "media figura",
+      "agua"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-019",
@@ -187,7 +283,12 @@
     "ocasion": "urbana",
     "dificultad": "media",
     "tips": "En movimiento, brazos naturales, gafas de sol opcionales, actitud confiada.",
-    "etiquetas": ["dinamico", "cuerpo completo", "moderno"]
+    "etiquetas": [
+      "dinamico",
+      "cuerpo completo",
+      "moderno"
+    ],
+    "enfoque": "center"
   },
   {
     "id": "pose-020",
@@ -197,6 +298,641 @@
     "ocasion": "navidad",
     "dificultad": "media",
     "tips": "Sentados o de pie juntos, abrazados suavemente, expresión cálida y feliz.",
-    "etiquetas": ["grupo", "cuerpo completo", "festivo"]
+    "etiquetas": [
+      "grupo",
+      "cuerpo completo",
+      "festivo"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-021",
+    "archivo": "/poses/02a-brazos-cruzados-hombre.png",
+    "titulo": "Brazos cruzados - Confianza",
+    "categoria": "hombre",
+    "ocasion": "formal",
+    "dificultad": "facil",
+    "tips": "De pie con brazos cruzados naturalmente. Mantén los hombros relajados, postura erguida y expresión seria o confiada. Proyecta autoridad y seguridad.",
+    "etiquetas": [
+      "brazos cruzados",
+      "formal",
+      "confianza",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-022",
+    "archivo": "/poses/02b-brazos-cruzados-mujer.png",
+    "titulo": "Brazos cruzados - Seguridad",
+    "categoria": "mujer",
+    "ocasion": "formal",
+    "dificultad": "facil",
+    "tips": "De pie con brazos cruzados de forma elegante. Mantén una postura firme, hombros relajados y expresión seria o confiada. Ideal para retratos profesionales.",
+    "etiquetas": [
+      "brazos cruzados",
+      "formal",
+      "profesional",
+      "seguridad"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-023",
+    "archivo": "/poses/02c-brazos-cruzados-joven.png",
+    "titulo": "Brazos cruzados - Joven",
+    "categoria": "niño",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "De pie relajado con brazos cruzados. Mantén una postura natural, expresión desenfadada, ideal para fotos de perfil o retrato casual.",
+    "etiquetas": [
+      "brazos cruzados",
+      "casual",
+      "joven",
+      "relajado"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-024",
+    "archivo": "/poses/02d-brazos-cruzados-senorita.png",
+    "titulo": "Brazos cruzados - Elegancia",
+    "categoria": "mujer",
+    "ocasion": "formal",
+    "dificultad": "facil",
+    "tips": "De pie con brazos cruzados manteniendo elegancia. Postura erguida, expresión serena, ideal para fotos profesionales o de moda.",
+    "etiquetas": [
+      "brazos cruzados",
+      "elegancia",
+      "formal",
+      "moda"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-025",
+    "archivo": "/poses/03a-manos-cintura-hombre.png",
+    "titulo": "Manos en cintura - Hombre",
+    "categoria": "hombre",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "De pie con una o ambas manos en la cintura. Postura relajada pero definida, expresión casual o sonrisa natural.",
+    "etiquetas": [
+      "manos cintura",
+      "casual",
+      "dinamico",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-026",
+    "archivo": "/poses/03b-manos-cintura-mujer.png",
+    "titulo": "Manos en cintura - Mujer",
+    "categoria": "mujer",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "De pie con mano en cintura, postura elegante y relajada. Ideal para destacar silueta, expresión confiada.",
+    "etiquetas": [
+      "manos cintura",
+      "casual",
+      "silueta",
+      "elegancia"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-027",
+    "archivo": "/poses/03c-manos-cintura-nino.png",
+    "titulo": "Manos en cintura - Niño",
+    "categoria": "niño",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "De pie con actitud desenfadada, mano en cintura. Expresión natural y alegre, postura relajada.",
+    "etiquetas": [
+      "manos cintura",
+      "casual",
+      "joven",
+      "relajado"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-028",
+    "archivo": "/poses/03d-manos-cintura-nina.png",
+    "titulo": "Manos en cintura - Niña",
+    "categoria": "niña",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "De pie con mano en cintura, postura segura. Expresión alegre y natural, ideal para fotos infantiles.",
+    "etiquetas": [
+      "manos cintura",
+      "casual",
+      "joven",
+      "seguridad"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-029",
+    "archivo": "/poses/04a-caminar-camara-hombre.png",
+    "titulo": "Caminando hacia cámara",
+    "categoria": "hombre",
+    "ocasion": "urbana",
+    "dificultad": "media",
+    "tips": "En movimiento caminando hacia la cámara. Brazos naturales, mirada hacia el lente, captura el movimiento en el momento.",
+    "etiquetas": [
+      "dinamico",
+      "caminando",
+      "urbano",
+      "movimiento"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-030",
+    "archivo": "/poses/05b-sobre-hombro-muje.png",
+    "titulo": "Mirada sobre hombro - Mujer",
+    "categoria": "mujer",
+    "ocasion": "formal",
+    "dificultad": "media",
+    "tips": "De lado o de 3/4, mirando por sobre el hombro. Postura elegante, expresión seria o seductora, ideal para moda.",
+    "etiquetas": [
+      "sobre hombro",
+      "moda",
+      "elegancia",
+      "formal"
+    ],
+    "enfoque": "right"
+  },
+  {
+    "id": "pose-031",
+    "archivo": "/poses/05c-sobre-hombro-senorita.png",
+    "titulo": "Mirada sobre hombro - Señorita",
+    "categoria": "mujer",
+    "ocasion": "formal",
+    "dificultad": "media",
+    "tips": "Giro natural del cuerpo, mirando por sobre el hombro hacia atrás. Pose elegante y sofisticada.",
+    "etiquetas": [
+      "sobre hombro",
+      "elegancia",
+      "giro",
+      "formal"
+    ],
+    "enfoque": "right"
+  },
+  {
+    "id": "pose-032",
+    "archivo": "/poses/06a-sentado-casual-hombre.png",
+    "titulo": "Sentado casual - Hombre",
+    "categoria": "hombre",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "Sentado de forma relajada, postura natural. Una pierna extendida o cruzada, brazos relajados, expresión casual.",
+    "etiquetas": [
+      "sentado",
+      "casual",
+      "relajado",
+      "natural"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-033",
+    "archivo": "/poses/06b-sentado-casual-mujer.png",
+    "titulo": "Sentado casual - Mujer",
+    "categoria": "mujer",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "Sentada con elegancia, pierna cruzada o lateral. Mano en cadera o en el regazo, expresión relajada y natural.",
+    "etiquetas": [
+      "sentado",
+      "casual",
+      "elegancia",
+      "relajado"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-034",
+    "archivo": "/poses/06c-sentado-casual-nino.png",
+    "titulo": "Sentado casual - Niño",
+    "categoria": "niño",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "Sentado de forma natural y relajada. Expresión genuina y alegre, postura cómoda.",
+    "etiquetas": [
+      "sentado",
+      "casual",
+      "joven",
+      "natural"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-035",
+    "archivo": "/poses/06d-sentado-casual-nina.png",
+    "titulo": "Sentado casual - Niña",
+    "categoria": "niña",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "Sentada con comodidad, pierna cruzada o relajada. Expresión natural y feliz, ideal para fotos infantiles.",
+    "etiquetas": [
+      "sentado",
+      "casual",
+      "joven",
+      "natural"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-036",
+    "archivo": "/poses/07a-apoyado-pared-hombre.png",
+    "titulo": "Apoyado en pared - Hombre",
+    "categoria": "hombre",
+    "ocasion": "urbana",
+    "dificultad": "facil",
+    "tips": "Apoyado relajadamente en una pared o superficie. Brazos naturales, postura desenfadada, expresión casual o confiada.",
+    "etiquetas": [
+      "apoyado en pared",
+      "urbana",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-037",
+    "archivo": "/poses/07b-apoyado-pared-mujer.png",
+    "titulo": "Apoyado en pared - Mujer",
+    "categoria": "mujer",
+    "ocasion": "urbana",
+    "dificultad": "facil",
+    "tips": "Apoyado relajadamente en una pared o superficie. Brazos naturales, postura desenfadada, expresión casual o confiada.",
+    "etiquetas": [
+      "apoyado en pared",
+      "urbana",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-038",
+    "archivo": "/poses/07c-apoyado-pared-joven.png",
+    "titulo": "Apoyado en pared - Niño",
+    "categoria": "niño",
+    "ocasion": "urbana",
+    "dificultad": "facil",
+    "tips": "Apoyado relajadamente en una pared o superficie. Brazos naturales, postura desenfadada, expresión casual o confiada.",
+    "etiquetas": [
+      "apoyado en pared",
+      "urbana",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-039",
+    "archivo": "/poses/07d-apoyado-pared-senorita.png",
+    "titulo": "Apoyado en pared - Niña",
+    "categoria": "niña",
+    "ocasion": "urbana",
+    "dificultad": "facil",
+    "tips": "Apoyado relajadamente en una pared o superficie. Brazos naturales, postura desenfadada, expresión casual o confiada.",
+    "etiquetas": [
+      "apoyado en pared",
+      "urbana",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-040",
+    "archivo": "/poses/08a-mirando-horizonte-hombre.png",
+    "titulo": "Mirando horizonte - Hombre",
+    "categoria": "hombre",
+    "ocasion": "playa",
+    "dificultad": "media",
+    "tips": "De pie mirando hacia el horizonte o lejos. Cuerpo relajado, expresión pensativa o serena, ideal para fotos poéticas.",
+    "etiquetas": [
+      "mirando horizonte",
+      "playa",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-041",
+    "archivo": "/poses/08b-mirando-horizonte-mujer.png",
+    "titulo": "Mirando horizonte - Mujer",
+    "categoria": "mujer",
+    "ocasion": "playa",
+    "dificultad": "media",
+    "tips": "De pie mirando hacia el horizonte o lejos. Cuerpo relajado, expresión pensativa o serena, ideal para fotos poéticas.",
+    "etiquetas": [
+      "mirando horizonte",
+      "playa",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-042",
+    "archivo": "/poses/08c-mirando-horizonte-joven.png",
+    "titulo": "Mirando horizonte - Niño",
+    "categoria": "niño",
+    "ocasion": "playa",
+    "dificultad": "media",
+    "tips": "De pie mirando hacia el horizonte o lejos. Cuerpo relajado, expresión pensativa o serena, ideal para fotos poéticas.",
+    "etiquetas": [
+      "mirando horizonte",
+      "playa",
+      "de pie"
+    ],
+    "enfoque": "left"
+  },
+  {
+    "id": "pose-043",
+    "archivo": "/poses/09a-sentado-escaleras-hombre.png",
+    "titulo": "Sentado en escaleras - Hombre",
+    "categoria": "hombre",
+    "ocasion": "urbana",
+    "dificultad": "facil",
+    "tips": "Sentado cómodamente en escaleras. Postura natural, brazos relajados, expresión casual y auténtica.",
+    "etiquetas": [
+      "sentado en escaleras",
+      "urbana",
+      "sentado"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-044",
+    "archivo": "/poses/09b-sentado-escaleras-mujer.png",
+    "titulo": "Sentado en escaleras - Mujer",
+    "categoria": "mujer",
+    "ocasion": "urbana",
+    "dificultad": "facil",
+    "tips": "Sentado cómodamente en escaleras. Postura natural, brazos relajados, expresión casual y auténtica.",
+    "etiquetas": [
+      "sentado en escaleras",
+      "urbana",
+      "sentado"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-045",
+    "archivo": "/poses/09c-sentado-escaleras-joven.png",
+    "titulo": "Sentado en escaleras - Niño",
+    "categoria": "niño",
+    "ocasion": "urbana",
+    "dificultad": "facil",
+    "tips": "Sentado cómodamente en escaleras. Postura natural, brazos relajados, expresión casual y auténtica.",
+    "etiquetas": [
+      "sentado en escaleras",
+      "urbana",
+      "sentado"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-046",
+    "archivo": "/poses/09d-sentado-escaleras-nino.png",
+    "titulo": "Sentado en escaleras - Niña",
+    "categoria": "niña",
+    "ocasion": "urbana",
+    "dificultad": "facil",
+    "tips": "Sentado cómodamente en escaleras. Postura natural, brazos relajados, expresión casual y auténtica.",
+    "etiquetas": [
+      "sentado en escaleras",
+      "urbana",
+      "sentado"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-047",
+    "archivo": "/poses/09e-sentado-escaleras-nina.png",
+    "titulo": "Sentado en escaleras - Niño",
+    "categoria": "niño",
+    "ocasion": "urbana",
+    "dificultad": "facil",
+    "tips": "Sentado cómodamente en escaleras. Postura natural, brazos relajados, expresión casual y auténtica.",
+    "etiquetas": [
+      "sentado en escaleras",
+      "urbana",
+      "sentado"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-048",
+    "archivo": "/poses/10a-perfil-lateral-hombre.png",
+    "titulo": "Perfil lateral - Hombre",
+    "categoria": "hombre",
+    "ocasion": "formal",
+    "dificultad": "media",
+    "tips": "De perfil completo. Barbilla paralela al suelo, postura erguida, expresión seria o contemplativa.",
+    "etiquetas": [
+      "perfil lateral",
+      "formal",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-049",
+    "archivo": "/poses/10b-perfil-lateral-mujer.png",
+    "titulo": "Perfil lateral - Mujer",
+    "categoria": "mujer",
+    "ocasion": "formal",
+    "dificultad": "media",
+    "tips": "De perfil completo. Barbilla paralela al suelo, postura erguida, expresión seria o contemplativa.",
+    "etiquetas": [
+      "perfil lateral",
+      "formal",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-050",
+    "archivo": "/poses/11a-selfie-clasica-hombre.png",
+    "titulo": "Selfie clásica - Hombre",
+    "categoria": "hombre",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "Autofoto frontal. Cámara a la altura de los ojos, sonrisa natural, fondo neutro o interesante.",
+    "etiquetas": [
+      "selfie clásica",
+      "casual",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-051",
+    "archivo": "/poses/11b-selfie-clasica-mujer.png",
+    "titulo": "Selfie clásica - Mujer",
+    "categoria": "mujer",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "Autofoto frontal. Cámara a la altura de los ojos, sonrisa natural, fondo neutro o interesante.",
+    "etiquetas": [
+      "selfie clásica",
+      "casual",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-052",
+    "archivo": "/poses/11c-selfie-clasica-joven.png",
+    "titulo": "Selfie clásica - Niño",
+    "categoria": "niño",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "Autofoto frontal. Cámara a la altura de los ojos, sonrisa natural, fondo neutro o interesante.",
+    "etiquetas": [
+      "selfie clásica",
+      "casual",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-053",
+    "archivo": "/poses/11d-selfie-clasica-senorita.png",
+    "titulo": "Selfie clásica - Niña",
+    "categoria": "niña",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "Autofoto frontal. Cámara a la altura de los ojos, sonrisa natural, fondo neutro o interesante.",
+    "etiquetas": [
+      "selfie clásica",
+      "casual",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-054",
+    "archivo": "/poses/12b-selfie-espejo-mujer.png",
+    "titulo": "Selfie al espejo - Mujer",
+    "categoria": "mujer",
+    "ocasion": "casual",
+    "dificultad": "media",
+    "tips": "Autofoto reflejada en espejo. Ángulo interesante, cuerpo visible, expresión natural y relajada.",
+    "etiquetas": [
+      "selfie al espejo",
+      "casual",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-055",
+    "archivo": "/poses/13a-selfie-cafe-hombre.png",
+    "titulo": "Selfie en café - Hombre",
+    "categoria": "hombre",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "Autofoto en ambiente casual de café. Expresión relajada, buena iluminación natural, fondo ambiental.",
+    "etiquetas": [
+      "selfie en café",
+      "casual",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-056",
+    "archivo": "/poses/13b-selfie-cafe-mujer.png",
+    "titulo": "Selfie en café - Mujer",
+    "categoria": "mujer",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "Autofoto en ambiente casual de café. Expresión relajada, buena iluminación natural, fondo ambiental.",
+    "etiquetas": [
+      "selfie en café",
+      "casual",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-057",
+    "archivo": "/poses/14a-redes-sociales-hombre.png",
+    "titulo": "Para redes sociales - Hombre",
+    "categoria": "hombre",
+    "ocasion": "casual",
+    "dificultad": "media",
+    "tips": "Foto optimizada para redes. Ángulo interesante, colores contrastantes, postura que destaque.",
+    "etiquetas": [
+      "para redes sociales",
+      "casual",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-058",
+    "archivo": "/poses/14b-redes-sociales-mujer.png",
+    "titulo": "Para redes sociales - Mujer",
+    "categoria": "mujer",
+    "ocasion": "casual",
+    "dificultad": "media",
+    "tips": "Foto optimizada para redes. Ángulo interesante, colores contrastantes, postura que destaque.",
+    "etiquetas": [
+      "para redes sociales",
+      "casual",
+      "de pie"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-059",
+    "archivo": "/poses/15a-sentado-banca-hombre.png",
+    "titulo": "Sentado en banca - Hombre",
+    "categoria": "hombre",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "Sentado relajadamente en banca. Brazos naturales, postura cómoda, expresión auténtica.",
+    "etiquetas": [
+      "sentado en banca",
+      "casual",
+      "sentado"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-060",
+    "archivo": "/poses/15b-sentado-banca-mujer.png",
+    "titulo": "Sentado en banca - Mujer",
+    "categoria": "mujer",
+    "ocasion": "casual",
+    "dificultad": "facil",
+    "tips": "Sentado relajadamente en banca. Brazos naturales, postura cómoda, expresión auténtica.",
+    "etiquetas": [
+      "sentado en banca",
+      "casual",
+      "sentado"
+    ],
+    "enfoque": "center"
+  },
+  {
+    "id": "pose-061",
+    "archivo": "/poses/17a-presentacion-hombre.png",
+    "titulo": "Presentación profesional - Hombre",
+    "categoria": "hombre",
+    "ocasion": "formal",
+    "dificultad": "media",
+    "tips": "De pie en postura de presentador. Brazos abiertos o gestuales, postura segura, expresión confiada.",
+    "etiquetas": [
+      "presentación profesional",
+      "formal",
+      "de pie"
+    ],
+    "enfoque": "center"
   }
 ]
