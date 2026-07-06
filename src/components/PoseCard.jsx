@@ -8,12 +8,18 @@ export const PoseCard = ({ pose, onClick, isFavorite, onToggleFavorite }) => {
       className="group relative card overflow-hidden cursor-pointer card-hover flex flex-col"
     >
       {/* Image Container */}
-      <div className="relative overflow-hidden bg-dark-bg flex-shrink-0" style={{ aspectRatio: '2/3', minHeight: '300px' }}>
+      <div
+        className="relative overflow-hidden bg-dark-bg flex-shrink-0"
+        style={{
+          aspectRatio: pose.orientacion === 'horizontal' ? '3/2' : '2/3',
+          minHeight: '280px'
+        }}
+      >
         <img
           src={pose.archivo}
           alt={pose.titulo}
           loading="lazy"
-          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105 bg-gradient-to-b from-dark-card to-dark-bg"
         />
         <div className="gradient-overlay" />
 

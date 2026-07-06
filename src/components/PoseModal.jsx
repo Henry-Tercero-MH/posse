@@ -55,11 +55,25 @@ export const PoseModal = ({
           {/* Content */}
           <div className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-4 sm:space-y-6">
             {/* Image - Responsive */}
-            <div className="overflow-hidden rounded-none sm:rounded-xl bg-dark-bg shadow-md-dark -mx-4 sm:mx-0 sm:mb-2" style={{ aspectRatio: '2/3', maxHeight: '70vh', height: 'auto' }}>
+            <div
+              className="overflow-hidden rounded-none sm:rounded-xl bg-dark-bg shadow-md-dark -mx-4 sm:mx-0 sm:mb-2"
+              style={{
+                aspectRatio: pose.orientacion === 'horizontal' ? '3/2' : '2/3',
+                minHeight: '60vh',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'
+              }}
+            >
               <img
                 src={pose.archivo}
                 alt={pose.titulo}
-                className="w-full h-full object-cover"
+                style={{
+                  maxWidth: '100%',
+                  maxHeight: '100%',
+                  objectFit: 'contain',
+                  objectPosition: 'center center'
+                }}
               />
             </div>
 

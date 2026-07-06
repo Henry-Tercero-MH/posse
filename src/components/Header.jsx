@@ -3,7 +3,11 @@ import { HiCamera } from 'react-icons/hi2';
 
 export const Header = ({ onFavoritesClick, favoriteCount }) => {
   return (
-    <header className="bg-dark-surface border-b border-dark-border sticky top-0 z-40 backdrop-blur-xs bg-opacity-98 shadow-md-dark">
+    <header className="sticky top-0 z-40 shadow-md-dark" style={{
+      background: 'rgba(26, 26, 31, 0.7)',
+      backdropFilter: 'blur(10px)',
+      borderBottom: '1px solid rgba(232, 178, 79, 0.1)'
+    }}>
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 flex items-center justify-between gap-4">
         {/* Logo and Title */}
         <div className="flex items-center gap-2 sm:gap-3 min-w-0">

@@ -13,7 +13,8 @@
       "formal",
       "de frente"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-002",
@@ -29,7 +30,8 @@
       "formal",
       "elegante"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-003",
@@ -45,7 +47,8 @@
       "natural",
       "casual"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-004",
@@ -61,7 +64,8 @@
       "formal",
       "elegante"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-005",
@@ -77,7 +81,8 @@
       "natural",
       "joven"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-006",
@@ -93,7 +98,8 @@
       "natural",
       "joven"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-007",
@@ -108,7 +114,8 @@
       "perfil",
       "maternidad"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-008",
@@ -123,7 +130,8 @@
       "cuerpo completo",
       "formal"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-009",
@@ -138,7 +146,8 @@
       "cuerpo completo",
       "familiar"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-010",
@@ -153,7 +162,8 @@
       "cuerpo completo",
       "moderno"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-011",
@@ -168,7 +178,8 @@
       "cuerpo completo",
       "energetico"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-012",
@@ -183,7 +194,8 @@
       "cuerpo completo",
       "festivo"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-013",
@@ -198,7 +210,8 @@
       "media figura",
       "feliz"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-014",
@@ -213,7 +226,8 @@
       "cuerpo completo",
       "profesional"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-015",
@@ -228,7 +242,8 @@
       "cuerpo completo",
       "romance"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-016",
@@ -243,7 +258,8 @@
       "cuerpo completo",
       "natural"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-017",
@@ -258,7 +274,8 @@
       "cuerpo completo",
       "artistico"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-018",
@@ -273,7 +290,8 @@
       "media figura",
       "agua"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-019",
@@ -288,7 +306,8 @@
       "cuerpo completo",
       "moderno"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-020",
@@ -303,7 +322,8 @@
       "cuerpo completo",
       "festivo"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-021",
@@ -319,7 +339,8 @@
       "confianza",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-022",
@@ -335,7 +356,8 @@
       "profesional",
       "seguridad"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-023",
@@ -351,7 +373,8 @@
       "joven",
       "relajado"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-024",
@@ -367,7 +390,8 @@
       "formal",
       "moda"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-025",
@@ -383,7 +407,8 @@
       "dinamico",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-026",
@@ -399,7 +424,8 @@
       "silueta",
       "elegancia"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-027",
@@ -415,7 +441,8 @@
       "joven",
       "relajado"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-028",
@@ -431,7 +458,8 @@
       "joven",
       "seguridad"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-029",
@@ -447,7 +475,8 @@
       "urbano",
       "movimiento"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-030",
@@ -463,7 +492,8 @@
       "elegancia",
       "formal"
     ],
-    "enfoque": "left"
+    "enfoque": "center",
+    "orientacion": "horizontal"
   },
   {
     "id": "pose-031",
@@ -479,7 +509,8 @@
       "giro",
       "formal"
     ],
-    "enfoque": "left"
+    "enfoque": "center",
+    "orientacion": "horizontal"
   },
   {
     "id": "pose-032",
@@ -495,7 +526,8 @@
       "relajado",
       "natural"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-033",
@@ -511,7 +543,8 @@
       "elegancia",
       "relajado"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-034",
@@ -527,7 +560,8 @@
       "joven",
       "natural"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-035",
@@ -543,7 +577,8 @@
       "joven",
       "natural"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-036",
@@ -558,7 +593,8 @@
       "urbana",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-037",
@@ -573,7 +609,8 @@
       "urbana",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-038",
@@ -588,7 +625,8 @@
       "urbana",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-039",
@@ -603,7 +641,8 @@
       "urbana",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-040",
@@ -618,7 +657,8 @@
       "playa",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-041",
@@ -633,7 +673,8 @@
       "playa",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-042",
@@ -648,7 +689,8 @@
       "playa",
       "de pie"
     ],
-    "enfoque": "left"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-043",
@@ -663,7 +705,8 @@
       "urbana",
       "sentado"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-044",
@@ -678,7 +721,8 @@
       "urbana",
       "sentado"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-045",
@@ -693,7 +737,8 @@
       "urbana",
       "sentado"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-046",
@@ -708,7 +753,8 @@
       "urbana",
       "sentado"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-047",
@@ -723,7 +769,8 @@
       "urbana",
       "sentado"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-048",
@@ -738,7 +785,8 @@
       "formal",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-049",
@@ -753,7 +801,8 @@
       "formal",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-050",
@@ -768,7 +817,8 @@
       "casual",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-051",
@@ -783,7 +833,8 @@
       "casual",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-052",
@@ -798,7 +849,8 @@
       "casual",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-053",
@@ -813,7 +865,8 @@
       "casual",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-054",
@@ -828,7 +881,8 @@
       "casual",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-055",
@@ -843,7 +897,8 @@
       "casual",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-056",
@@ -858,7 +913,8 @@
       "casual",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-057",
@@ -873,7 +929,8 @@
       "casual",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-058",
@@ -888,7 +945,8 @@
       "casual",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-059",
@@ -903,7 +961,8 @@
       "casual",
       "sentado"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-060",
@@ -918,7 +977,8 @@
       "casual",
       "sentado"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   },
   {
     "id": "pose-061",
@@ -933,6 +993,7 @@
       "formal",
       "de pie"
     ],
-    "enfoque": "center"
+    "enfoque": "center",
+    "orientacion": "vertical"
   }
 ]
